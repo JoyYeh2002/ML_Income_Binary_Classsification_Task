@@ -44,3 +44,5 @@ This is a logistic regression model that assumes the dimensions to follow Gaussi
 ![](/outputs/loss_Gradient.png)
 
 ![](/outputs/Accuracy_Gradient.png)
+
+Return to Joy's website: https://joyyeh2002.github.io/compsci.html
