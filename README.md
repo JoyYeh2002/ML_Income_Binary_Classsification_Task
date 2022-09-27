@@ -1,0 +1,45 @@
+# ML_Income_Binary_Classsification_Task
+
+**EN.580.140.12.IN21 Statistical Foundations of Machine Learning**
+
+**Final Project: Binary Classification Model of Annual Income based on Demographic Information**
+
+**Introduction**
+
+This project is a logistic regression classification model implementation that predicts whether a person’s income exceeds $50K/year based on demographic data from the [UC Irvine Machine Learning Repository](//archive.ics.uci.edu/ml/datasets/Census+Income).
+
+This task is one of professor Hung-Yi Lee’s undergraduate Machine Learning course at National Taiwan University. Assignment instructions can be found [here](https://drive.google.com/file/d/1DOqby_K_9TK2QVUr-C2qYg0amZkRu21U/view?usp=sharing). The dataset is revised so make the features easier to manipulate. Relevant data is located in the ‘data’ folder of this GigHub repository.
+
+The dataset’s input, **x_train**, has vectors with 510 dimensions. The training outputs, **y_train**, are binary values of 0 (income below $50k) or 1 (income above $50k). There are 48842 instances of labeled data. Because we have ample amounts of data and simple outputs, we use supervised learning to train a model with logistic regression. Simple implementations of **Adagrad** and **mini-batch training** are also made.
+
+The inputs and adjustable parameters are:
+- Epoch size
+- Initial learning step for Adagrad
+- Percentage split for the training and validation sets
+
+The outputs of the model are:
+
+- A graph of the loss values of the training set and validation sets over time
+- A graph of the accuracy % of the model over time
+- A .csv file that predicts the y values of the testing data
+
+**Model Design**
+
+The workflow is as follows:
+
+1. Import and clean up the data files: x_train, y_train, and x_test
+2. Split up the training and validation sets
+3. Normalize the training sets so that for all dimensions of x,  means = 0 and variances = 1
+4. Compute loss values of each set of parameters passed in
+5. Write functions for shuffling, sigmoid(), creating a proposed function _f(x, w, b), prediction, accuracy, cross entropy, and gradient descent
+6. Implement mini-batch and Adagrad
+7. Print and update the parameters in the console
+8. Plot the graphs mentioned above
+9. Generate prediction results and write to the output file, y_test.
+
+**the Statistical Model**
+This is a logistic regression model that assumes the dimensions to follow Gaussian Distributions. One co-variance matrix is shared between all input dimensions so that there's a linear boundary for the binary classification (whether the output probability is > 0.5). 
+
+
+# Results
+![]images
