@@ -7,9 +7,9 @@
 # Introduction
 This project is a logistic regression classification model implementation that predicts whether a person’s income exceeds $50K/year based on demographic data from the [UC Irvine Machine Learning Repository](//archive.ics.uci.edu/ml/datasets/Census+Income).
 
-![](\info\UCI_Repository.PNG)
+![](/info/UCI_Repository.PNG)
 
-This task is one of professor Hung-Yi Lee’s undergraduate Machine Learning course at National Taiwan University. Assignment instructions can be found [here](\info\NTU_Machine_Learning_HW2.pptx). The dataset is revised so make the features easier to manipulate. Relevant data is located in the ‘data’ folder of this GigHub repository.
+This task is one of professor Hung-Yi Lee’s undergraduate Machine Learning course at National Taiwan University. Assignment instructions can be found [here](/info/NTU_Machine_Learning_HW2.pptx). The dataset is revised so make the features easier to manipulate. Relevant data is located in the ‘data’ folder of this GigHub repository.
 
 The dataset’s input, **x_train**, has vectors with 510 dimensions. The training outputs, **y_train**, are binary values of 0 (income below $50k) or 1 (income above $50k). There are 48842 instances of labeled data. Because we have ample amounts of data and simple outputs, we use supervised learning to train a model with logistic regression. Simple implementations of **Adagrad** and **mini-batch training** are also made.
 
@@ -35,7 +35,7 @@ The outputs of the model are:
 7. Print and update the parameters in the console
 8. Plot the graphs mentioned above
 9. Generate prediction results and write to the output file, y_test.
-![](\info\Code_Running.gif)
+![](/info/Code_Running.gif)
 
 
 # The Statistical Model
