@@ -4,7 +4,7 @@
 
 **Final Project: Binary Classification Model of Annual Income based on Demographic Information**
 
-**Introduction**
+# Introduction
 
 This project is a logistic regression classification model implementation that predicts whether a person’s income exceeds $50K/year based on demographic data from the [UC Irvine Machine Learning Repository](//archive.ics.uci.edu/ml/datasets/Census+Income).
 
@@ -42,4 +42,6 @@ This is a logistic regression model that assumes the dimensions to follow Gaussi
 
 
 # Results
-![]images
+![](/outputs/loss_Gradient.png)
+
+![](/outputs/Accuracy_Gradient.png)
