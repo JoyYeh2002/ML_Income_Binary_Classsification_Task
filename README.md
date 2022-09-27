@@ -9,7 +9,7 @@ This project is a logistic regression classification model implementation that p
 
 ![](/info/UCI_Repository.PNG)
 
-This task is one of professor Hung-Yi Lee’s undergraduate Machine Learning course at National Taiwan University. Assignment instructions can be found [here](/info/NTU_Machine_Learning_HW2.pptx). The dataset is revised so make the features easier to manipulate. Relevant data is located in the ‘data’ folder of this GigHub repository.
+This task is one of professor Hung-Yi Lee’s undergraduate Machine Learning course at National Taiwan University. Assignment instructions can be found [here](https://drive.google.com/file/d/1DOqby_K_9TK2QVUr-C2qYg0amZkRu21U/view). The dataset is revised so make the features easier to manipulate. Relevant data is located in the ‘data’ folder of this GigHub repository.
 
 The dataset’s input, **x_train**, has vectors with 510 dimensions. The training outputs, **y_train**, are binary values of 0 (income below $50k) or 1 (income above $50k). There are 48842 instances of labeled data. Because we have ample amounts of data and simple outputs, we use supervised learning to train a model with logistic regression. Simple implementations of **Adagrad** and **mini-batch training** are also made.
 
