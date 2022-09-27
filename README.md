@@ -33,6 +33,8 @@ The outputs of the model are:
 7. Print and update the parameters in the console
 8. Plot the graphs mentioned above
 9. Generate prediction results and write to the output file, y_test.
+![](classification_loss_run_progress_gif.gif)
+
 
 # The Statistical Model
 This is a logistic regression model that assumes the dimensions to follow Gaussian Distributions. One co-variance matrix is shared between all input dimensions so that there's a linear boundary for the binary classification (whether the output probability is > 0.5). 
