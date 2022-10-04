@@ -1,6 +1,7 @@
 # ML_Income_Binary_Classsification_Task
 
 **Return to Joy's website: https://joyyeh2002.github.io/compsci.html**
+
 **EN.580.140.12.IN21 Statistical Foundations of Machine Learning**
 
 **Final Project: Binary Classification Model of Annual Income based on Demographic Information**
