@@ -1,6 +1,6 @@
 # ML_Income_Binary_Classsification_Task
 
-Return to Joy's website: https://joyyeh2002.github.io/compsci.html
+Return to [Joy's website](https://joyyeh2002.github.io/compsci.htm)
 
 **EN.580.140.12.IN21 Statistical Foundations of Machine Learning**
 
@@ -49,4 +49,4 @@ This is a logistic regression model that assumes the dimensions to follow Gaussi
 
 ![](/outputs/Accuracy_Gradient.png)
 
-Return to Joy's website: https://joyyeh2002.github.io/compsci.html
+Return to [Joy's website](https://joyyeh2002.github.io/compsci.html)
