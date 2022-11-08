@@ -1,6 +1,6 @@
 # ML_Income_Binary_Classsification_Task
 
-Return to [Joy's website](https://joyyeh2002.github.io/compsci.htm)
+Return to [Joy's website](https://joyyeh2002.github.io/compsci.html)
 
 **EN.580.140.12.IN21 Statistical Foundations of Machine Learning**
 
